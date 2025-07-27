@@ -26,4 +26,4 @@ var containsDuplicate = function(nums) {
 
 console.log(containsDuplicate([1,2,2,3,4])) //true
 
-console.log(containsDuplicate([1,2,3,4,5]))
+console.log(containsDuplicate([1,2,3,4,5])) //false
