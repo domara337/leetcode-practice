@@ -4,6 +4,8 @@
  * @return {boolean}
  */
 var isAnagram = function(s, t) {
+
+    //checks the lenght of the strings
     if (s.length !== t.length) return false;
 
     // Create a character frequency map
@@ -23,5 +25,5 @@ var isAnagram = function(s, t) {
     return true;
 };
 
-console.log(isAnagram("anagram", "nagaram")); // true
-console.log(isAnagram("rat", "car"));         // false
+console.log(isAnagram("anagram", "nagaram")); 
+console.log(isAnagram("rat", "car"));         
